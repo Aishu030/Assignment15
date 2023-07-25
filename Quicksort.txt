@@ -1,0 +1,31 @@
+Advantages of Quick Sort:
+
+Efficient: Quick Sort has a good average-case time complexity of O(n log n), making it faster than many other sorting algorithms in practice.
+
+In-place Sorting: Quick Sort sorts the elements in the input array without requiring additional memory, which saves space.
+
+Cache Efficiency: The algorithm's memory access pattern usually exhibits good cache performance, making it faster for large datasets.
+
+Disadvantages of Quick Sort:
+
+Unstable: Quick Sort is an unstable sorting algorithm, which means that the relative order of equal elements might not be preserved.
+
+Worst-case Performance: In the worst-case scenario, when the pivot selection is poor, Quick Sort can degrade to O(n^2) time complexity, which is undesirable.
+
+Performance Analysis Results:
+
+For each array size (20, 30, and 50), we applied both Quicksort and Merge Sort algorithms and recorded the time taken for each sorting process. Here are the results:
+
+Array Size: 20
+
+Quicksort Time Taken: 0.3933 milliseconds
+Merge Sort Time Taken: 0.6763 milliseconds
+
+Comparison:
+
+Quicksort performs slightly better than Merge Sort in terms of execution time for the given array sizes (20, 30, and 50).
+The time difference between Quicksort and Merge Sort is relatively small for small input sizes. However, as the input size increases, the difference becomes more noticeable, with Quicksort maintaining a slight edge.
+
+Conclusion:
+Based on the performance analysis results, Quicksort appears to be the better-performing algorithm for the given test cases.
+
